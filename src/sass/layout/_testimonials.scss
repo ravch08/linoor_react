@@ -1,4 +1,4 @@
-@use "../abstracts/helper"as h;
+@use "../abstracts/helper" as h;
 
 #testimonials {
   background-color: h.$color-light-400;
@@ -52,8 +52,16 @@
 .newsletter-wrapper {
   @extend .flexRow-between;
 
+  label {
+    display: none;
+  }
+
   h2 {
     color: h.$color-light-100;
+  }
+
+  form {
+    position: relative;
   }
 
   .newsletter-email {
@@ -67,6 +75,14 @@
       outline: none;
       border-radius: 5rem;
     }
+  }
+
+  .form-error {
+    color: red;
+    position: absolute;
+    bottom: -60%;
+    right: 65%;
+    z-index: 99;
   }
 }
 

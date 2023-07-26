@@ -8,7 +8,7 @@ const Header = () => {
    const [isSticky, setIsSticky] = useState("");
 
    const stickyFn = () => {
-      const stickyClass = window.scrollY >= 250 ? "sticky" : "";
+      const stickyClass = window.scrollY >= 150 ? "sticky" : "";
       setIsSticky(stickyClass);
    };
 

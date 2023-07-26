@@ -4,20 +4,20 @@ import { Banner, Features, Services, Projects, Pricing, Counter, Sponsors, Testi
 
 const Home = () => {
 
-   return (
-      <main>
-         <Banner />
-         <Features />
-         <Services />
-         <Projects />
-         <Pricing />
-         <Counter />
-         <Sponsors />
-         <Testimonials />
-         <Blog />
-         <Newsletter />
-      </main>
-   );
+	return (
+		<main>
+			<Banner />
+			<Features />
+			<Services />
+			<Projects />
+			<Pricing />
+			<Counter />
+			<Sponsors />
+			<Testimonials />
+			<Blog />
+			<Newsletter />
+		</main>
+	);
 };
 
 export default Home;
