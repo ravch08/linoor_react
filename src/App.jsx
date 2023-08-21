@@ -1,9 +1,18 @@
 import React, { useLayoutEffect } from "react";
 import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 
-import { About, BlogPage, Contact, Footer, Header, Home, Portfolio, ServicePage } from "./components/layout/helper";
+import {
+	About,
+	BlogPage,
+	Contact,
+	Footer,
+	Header,
+	Home,
+	Portfolio,
+	ServicePage,
+} from "./components/utils/helper";
 
-import "./sass/main.scss";
+import "./styles/main.css";
 
 const Wrapper = ({ children }) => {
 	const location = useLocation();

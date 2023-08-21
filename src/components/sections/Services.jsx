@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { Service1, Service2 } from "../layout/helper";
+import { Service1, Service2 } from "../utils/helper";
 
 const Services = () => {
 	return (
@@ -16,7 +16,10 @@ const Services = () => {
 						<h2>
 							Powerful <strong>Tools</strong> for <br /> Your Customers
 						</h2>
-						<h3>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</h3>
+						<h3>
+							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+							nulla pariatur.
+						</h3>
 
 						<ul className="service-list">
 							<li>
@@ -47,8 +50,9 @@ const Services = () => {
 							Control <strong>Everything</strong> from One Solution
 						</h2>
 						<p>
-							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. fur hat and fur boa who sat
-							upright, raising a heavy fur muff that covered.
+							Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+							nulla pariatur. fur hat and fur boa who sat upright, raising a heavy fur muff that
+							covered.
 						</p>
 
 						<div className="service-progressbar">

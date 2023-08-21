@@ -1,11 +1,11 @@
 import React from "react";
-import { blogItems } from "../layout/Data";
-import { BlogItem } from "../layout/helper";
+import { blogItems } from "../utils/data";
+import { BlogItem } from "../utils/helper";
 
-const Blog = (props) => {
+const Blog = () => {
 	const blogItemsList = [...blogItems.slice(0, 3)];
 
-	const blogItemsList2 = blogItemsList.map((blogItem) => (
+	const blogItemsList2 = blogItemsList?.map((blogItem) => (
 		<BlogItem
 			key={blogItem.id}
 			name={blogItem.name}
@@ -25,7 +25,7 @@ const Blog = (props) => {
 					</h2>
 				</div>
 
-				<div className="blog-wrapper">{props.blogs ? props.blogs : blogItemsList2}</div>
+				<div className="blog-wrapper">{blogItemsList2}</div>
 			</div>
 		</section>
 	);

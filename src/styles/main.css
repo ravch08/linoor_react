@@ -1,0 +1,15 @@
+@import "./abstracts/globals.css";
+@import "./abstracts/utilities.css";
+
+@import "./components/buttons.css";
+
+@import "./layout/header.css";
+@import "./layout/banner.css";
+@import "./layout/features.css";
+@import "./layout/services.css";
+@import "./layout/projects.css";
+@import "./layout/pricing.css";
+@import "./layout/blog.css";
+@import "./layout/project-counter.css";
+@import "./layout/testimonials.css";
+@import "./layout/footer.css";

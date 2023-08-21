@@ -1,8 +1,7 @@
 import React from "react";
 
-import { blogItems } from "../layout/Data";
-import { BlogItem } from "../layout/helper";
-import Blog from "../sections/Blog";
+import { blogItems } from "../utils/data";
+import { Blog, BlogItem } from "../utils/helper";
 
 const BlogPage = () => {
 	const blogPageItems = blogItems.map((blogItem) => (

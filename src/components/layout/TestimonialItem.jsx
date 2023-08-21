@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React from "react";
 
 const TestimonialItem = (props) => {
@@ -21,6 +22,13 @@ const TestimonialItem = (props) => {
 			<blockquote>{props.quote}</blockquote>
 		</div>
 	);
+};
+
+TestimonialItem.prototype = {
+	name: PropTypes.string.isRequired,
+	quote: PropTypes.string.isRequired,
+	imgSrc: PropTypes.string.isRequired,
+	designation: PropTypes.string.isRequired,
 };
 
 export default TestimonialItem;

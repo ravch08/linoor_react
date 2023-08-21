@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React from "react";
 
 const BlogItem = (props) => {
@@ -23,6 +24,14 @@ const BlogItem = (props) => {
 			</div>
 		</div>
 	);
+};
+
+BlogItem.prototype = {
+	name: PropTypes.string.isRequired,
+	date: PropTypes.string.isRequired,
+	title: PropTypes.string.isRequired,
+	imgSrc: PropTypes.string.isRequired,
+	comments: PropTypes.string.isRequired,
 };
 
 export default BlogItem;

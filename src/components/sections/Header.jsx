@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 import { Link } from "react-router-dom";
-import { LogoDark, Sidebar } from "../layout/helper";
+import { LogoDark, Sidebar } from "../utils/helper";
 
 const Header = () => {
 	const [isSticky, setIsSticky] = useState("");

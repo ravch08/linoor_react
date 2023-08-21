@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade";
 
-import { Banner1, Banner2, BannerBG, BannerBG576, BannerBG768 } from "../layout/helper";
+import { Banner1, Banner2, BannerBG, BannerBG576, BannerBG768 } from "../utils/helper";
 
 const Banner = () => {
 	return (
@@ -40,8 +40,10 @@ const Banner = () => {
 							We Deliver the <br /> <strong>Quality</strong> SEO Links.
 						</h1>
 						<p>
-							We’re committed to providing customers exceptional service offering employees the best training. <br />
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ut numquam culpa pariatur similique quaerat?
+							We’re committed to providing customers exceptional service offering employees the best
+							training. <br />
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ut numquam culpa
+							pariatur similique quaerat?
 						</p>
 						<button className="btn-gradient">DISCOVER MORE</button>
 					</div>
@@ -59,9 +61,11 @@ const Banner = () => {
 							We Deliver the <br /> <strong>Quality</strong> SEO Links.
 						</h1>
 						<p>
-							We’re committed to providing customers exceptional service offering employees the best training.
+							We’re committed to providing customers exceptional service offering employees the best
+							training.
 							<br />
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ut numquam culpa pariatur similique quaerat?
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ut numquam culpa
+							pariatur similique quaerat?
 						</p>
 						<Link to="#!" className="btn-gradient">
 							DISCOVER MORE

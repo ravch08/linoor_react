@@ -10,8 +10,10 @@ const Pricing = () => {
 
 	const displayClass = `pricing-monthly ${displayPricing}`;
 
-	const hideClass = displayClass === "pricing-monthly active" ? "pricing-yearly hide" : "pricing-yearly active";
-	const roundClass = displayClass === "pricing-monthly hide" ? "slider-round show-yearly" : "slider-round";
+	const hideClass =
+		displayClass === "pricing-monthly active" ? "pricing-yearly hide" : "pricing-yearly active";
+	const roundClass =
+		displayClass === "pricing-monthly hide" ? "slider-round show-yearly" : "slider-round";
 
 	return (
 		<section id="pricing" aria-labelledby="Pricing Plans">

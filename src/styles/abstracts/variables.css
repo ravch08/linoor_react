@@ -1,0 +1,70 @@
+:root {
+	/* Font Variables --- fm - Font Family -- fs - Font Size -- fw - Font Weight -- */
+
+	--fm-body: "Rubik", sans-serif;
+	--fm-primary: "Rubik", sans-serif;
+	--fm-secondary: "Teko", sans-serif;
+
+	--fs-h1: 6rem;
+	--fs-h2: 4.6rem;
+	--fs-h3: 2.4rem;
+	--fs-h4: 1.8rem;
+	--fs-h5: 1.5rem;
+	--fs-h6: 1.2rem;
+
+	--fs-btn: 1.3rem;
+	--fs-body: 1.6rem;
+	--fs-icons: 1.2rem;
+	--fs-topbar: 1.2rem;
+	--fs-subheading: 1.5rem;
+
+	/* // -- Line Height - lh -------------------------------------------------------- */
+
+	--lh-body: 1.8;
+	--lh-heading: 1.2;
+
+	/* // Color Variables ------------------------------------------------------------ */
+
+	/* // prettier-ignore */
+	--color-gradient1: linear-gradient(to right, #ff9b61 0%, #ff4d82 51%, #ff9b61 100%);
+
+	/* // prettier-ignore */
+	--color-gradient2: linear-gradient(to right, #ff4d82 0%, #ff9b61 51%, #ff9b61 100%);
+
+	--color-scrollbar: hsl(30, 36%, 96%);
+	--color-scrollThumb: hsl(22, 100%, 69%);
+
+	--color-primary: hsl(342, 100%, 65%);
+	--color-secondary: hsl(22, 100%, 69%);
+	--color-tertiary: hsl(198, 69%, 66%);
+	--color-quarternary: hsl(128, 53%, 59%);
+
+	--color-light-100: hsl(0, 0%, 100%);
+	--color-light-400: hsl(30, 36%, 96%);
+	--color-light-800: hsl(0, 0%, 91%);
+
+	--color-Dark-100: hsl(251, 12%, 18%);
+	--color-Dark-400: hsl(252, 14%, 14%);
+	--color-Dark-800: hsl(0, 0%, 0%);
+
+	--color-footerBar: hsl(251, 12%, 18%);
+
+	--color-text-primary: hsl(251, 12%, 18%);
+	--color-text-secondary: hsl(252, 9%, 67%);
+
+	--color-body: hsl(255, 3%, 46%);
+	--color-hover: hsl(251, 12%, 18%);
+
+	/* // Dimensions Variables ----------------------------------------------------- */
+
+	--width-container: 1200px;
+	--section-padding: 8rem;
+
+	/* // Box Shadow --------------------------------------------------------------- */
+
+	--box-shadow-lg: 0 1rem 3rem hsl(0, 0%, 0.25%);
+	--box-shadow-md: 0 0.5rem 1rem hsla(0, 0%, 0%, 0.14);
+	--box-shadow-sm: 0 0.125rem 0.25rem hsla(0, 0%, 0%, 0.075);
+
+	/* // -------------------------------------------------------------------------- */
+}

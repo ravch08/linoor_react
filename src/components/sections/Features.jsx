@@ -1,11 +1,16 @@
 import React from "react";
 
-import { featureItems } from "../layout/Data";
-import { FeatureItem } from "../layout/helper";
+import { featureItems } from "../utils/data";
+import { FeatureItem } from "../utils/helper";
 
 const Features = () => {
 	const featureItemsList = featureItems.map((featureItem) => (
-		<FeatureItem key={featureItem.id} svg={featureItem.svg} feature={featureItem.feature} description={featureItem.description} />
+		<FeatureItem
+			key={featureItem.id}
+			svg={featureItem.svg}
+			feature={featureItem.feature}
+			description={featureItem.description}
+		/>
 	));
 
 	return (

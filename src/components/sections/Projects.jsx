@@ -1,11 +1,16 @@
 import React from "react";
 
-import { projectItems } from "../layout/Data";
-import { ProjectItem } from "../layout/helper";
+import { projectItems } from "../utils/data";
+import { ProjectItem } from "../utils/helper";
 
 const Projects = () => {
-	const projectItemsList = projectItems.map((projectItem) => (
-		<ProjectItem key={projectItem.id} type={projectItem.type} imgSrc={projectItem.imgSrc} description={projectItem.description} />
+	const projectItemsList = projectItems?.map((projectItem) => (
+		<ProjectItem
+			key={projectItem.id}
+			type={projectItem.type}
+			imgSrc={projectItem.imgSrc}
+			description={projectItem.description}
+		/>
 	));
 
 	return (

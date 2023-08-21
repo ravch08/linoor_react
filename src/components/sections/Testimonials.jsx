@@ -4,11 +4,11 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 
-import { testimonialItems } from "../layout/Data";
-import { TestimonialItem } from "../layout/helper";
+import { testimonialItems } from "../utils/data";
+import { TestimonialItem } from "../utils/helper";
 
 const Testimonials = () => {
-	const testimonialItemsList = testimonialItems.map((testimonialItem) => (
+	const testimonialItemsList = testimonialItems?.map((testimonialItem) => (
 		<SwiperSlide key={testimonialItem.id}>
 			<TestimonialItem
 				name={testimonialItem.name}

@@ -4,7 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 
-import { Sponsor1 } from "../layout/helper";
+import { Sponsor1 } from "../utils/helper";
 
 const Sponsors = () => {
 	return (

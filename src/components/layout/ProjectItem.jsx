@@ -1,3 +1,4 @@
+import PropTypes from "prop-types";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -20,6 +21,12 @@ const ProjectItem = (props) => {
 			</Link>
 		</div>
 	);
+};
+
+ProjectItem.prototype = {
+	type: PropTypes.string.isRequired,
+	imgSrc: PropTypes.string.isRequired,
+	description: PropTypes.string.isRequired,
 };
 
 export default ProjectItem;

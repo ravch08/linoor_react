@@ -1,5 +1,5 @@
 import React from "react";
-import { SocialIcons } from "./helper";
+import { SocialIcons } from "../utils/helper";
 
 const FooterBar = () => {
 	return (

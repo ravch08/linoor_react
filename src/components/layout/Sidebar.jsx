@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-import { LogoLight, SocialIcons } from "./helper";
+import { LogoLight, SocialIcons } from "../utils/helper";
 
 const Sidebar = () => {
 	const [isSidebar, setIsSidebar] = useState(false);
@@ -55,7 +55,12 @@ const Sidebar = () => {
 								<Link to="/servicepage" className="sidebar-link">
 									Services
 									<figure className="dropdown">
-										<svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 256 512">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="14"
+											height="12"
+											viewBox="0 0 256 512"
+										>
 											<path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
 										</svg>
 									</figure>
@@ -97,7 +102,12 @@ const Sidebar = () => {
 								<Link to="/portfolio" className="sidebar-link">
 									Portfolio
 									<figure className="dropdown">
-										<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 256 512">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="14"
+											height="14"
+											viewBox="0 0 256 512"
+										>
 											<path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
 										</svg>
 									</figure>
@@ -129,7 +139,12 @@ const Sidebar = () => {
 								<Link to="/blogpage" className="sidebar-link">
 									Blog
 									<figure className="dropdown">
-										<svg xmlns="http://www.w3.org/2000/svg" width="14" height="12" viewBox="0 0 256 512">
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											width="14"
+											height="12"
+											viewBox="0 0 256 512"
+										>
 											<path d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z" />
 										</svg>
 									</figure>
@@ -166,7 +181,10 @@ const Sidebar = () => {
 					</nav>
 
 					<div className="sidebar-info">
-						<p>Linoor is a premium Template for Digital Agencies, Start Ups, Small Business and a wide range of other agencies.</p>
+						<p>
+							Linoor is a premium Template for Digital Agencies, Start Ups, Small Business and a
+							wide range of other agencies.
+						</p>
 						<Link to="#!" className="contact-link">
 							needhelp@linoor.com
 						</Link>

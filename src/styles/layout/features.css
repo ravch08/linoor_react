@@ -1,0 +1,155 @@
+.feature-list {
+	gap: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.feature-item {
+		display: flex;
+		padding: 2.5rem;
+		max-width: 32rem;
+		min-height: 40rem;
+		align-items: center;
+		border-radius: 0.3rem;
+		flex-direction: column;
+		justify-content: space-around;
+
+		h3 {
+			font-size: var(--fs-h4);
+			color: var(--color-Dark-800);
+		}
+
+		.btn-arrow svg {
+			fill: var(--color-Dark-800) !important;
+		}
+
+		figure {
+			width: 8rem;
+			height: 8rem;
+			border-radius: 0.5rem;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			justify-content: center;
+			transition: background-color 0.5s ease-in-out;
+		}
+
+		&:nth-child(1) {
+			border: 0.15rem solid hsl(342, 100%, 72%);
+
+			figure {
+				background-color: hsl(342, 100%, 72%);
+			}
+
+			svg {
+				fill: var(--color-primary);
+				transition: color 0.5s ease-in-out;
+			}
+
+			&:hover {
+				box-shadow: var(--box-shadow-md);
+				border: 0.15rem solid var(--color-primary);
+
+				figure {
+					background-color: var(--color-primary);
+				}
+
+				svg {
+					fill: var(--color-light-100);
+				}
+			}
+		}
+
+		&:nth-child(2) {
+			border: 0.15rem solid hsl(342, 100%, 75%);
+
+			figure {
+				background-color: hsl(342, 100%, 75%);
+			}
+
+			svg {
+				fill: var(--color-secondary);
+				transition: color 0.3s ease-in-out;
+			}
+
+			&:hover {
+				box-shadow: var(--box-shadow-md);
+				border: 0.15rem solid var(--color-secondary);
+
+				figure {
+					background-color: var(--color-secondary);
+				}
+
+				svg {
+					fill: var(--color-light-100);
+				}
+			}
+		}
+
+		&:nth-child(3) {
+			border: 0.15rem solid hsl(198, 69%, 72%);
+
+			figure {
+				background-color: hsl(198, 69%, 72%);
+			}
+
+			svg {
+				fill: var(--color-tertiary);
+				transition: color 0.3s ease-in-out;
+			}
+
+			&:hover {
+				box-shadow: var(--box-shadow-md);
+				border: 0.15rem solid var(--color-tertiary);
+
+				figure {
+					background-color: var(--color-tertiary);
+				}
+
+				svg {
+					fill: var(--color-light-100);
+				}
+			}
+		}
+
+		&:nth-child(4) {
+			border: 0.15rem solid hsl(128, 53%, 65%);
+
+			figure {
+				background-color: hsl(128, 53%, 65%);
+			}
+
+			svg {
+				fill: var(--color-quarternary);
+				transition: color 0.3s ease-in-out;
+			}
+
+			&:hover {
+				box-shadow: var(--box-shadow-md);
+				border: 0.15rem solid var(--color-quarternary);
+
+				figure {
+					background-color: var(--color-quarternary);
+				}
+
+				svg {
+					fill: var(--color-light-100);
+				}
+			}
+		}
+	}
+}
+
+/* // -------- MEDIA QUERIES ---------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+	.feature-list {
+		flex-direction: column;
+	}
+}
+
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+	.feature-list {
+		flex-wrap: wrap;
+	}
+}

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import { FooterBar, LogoLight, ScrollToTop } from "../layout/helper";
+import { FooterBar, LogoLight, ScrollToTop } from "../utils/helper";
 
 const Footer = () => {
 	return (

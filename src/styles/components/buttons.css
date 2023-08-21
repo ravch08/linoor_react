@@ -1,0 +1,59 @@
+.btn-gradient {
+	border: none;
+	cursor: pointer;
+	padding: 2rem 4rem;
+	border-radius: 0.5rem;
+	display: inline-block;
+	font-size: var(--fs-btn);
+	color: var(--color-light-100);
+	background: var(--color-gradient1);
+	transition: background 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+
+	&:hover {
+		box-shadow: var(--box-shadow-md);
+		background: var(--color-gradient2);
+	}
+}
+
+.btn-arrow {
+	border: none;
+	cursor: pointer;
+	background-color: transparent;
+
+	svg {
+		fill: var(--color-Dark-800);
+	}
+}
+
+.btn-close {
+	svg {
+		fill: var(--color-light-100);
+		transition: fill 0.4s ease-in-out, transform 0.4s ease-in-out;
+	}
+
+	&:hover svg {
+		transform: rotate(90deg);
+		fill: var(--color-secondary);
+	}
+}
+
+.btn-submit {
+	border: none;
+	padding: 2rem;
+	display: flex;
+	cursor: pointer;
+	position: absolute;
+	top: 14%;
+	right: 2%;
+	border-radius: 3rem;
+	background-color: var(--color-Dark-400);
+	transition: background-color 0.3s ease-in-out;
+
+	svg {
+		fill: var(--color-light-100);
+	}
+
+	&:hover {
+		background-color: var(--color-Dark-800);
+	}
+}

@@ -1,0 +1,122 @@
+.counters {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	.counter {
+		width: 21rem;
+		height: 21rem;
+		border-radius: 50%;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		box-shadow: var(--box-shadow-sm);
+		transition: box-shadow 0.3s ease-in-out, outline 0.3s ease-in-out;
+
+		&:nth-child(1) {
+			outline: hsl(342, 100%, 70%) solid 0.8rem;
+			outline-offset: -2rem;
+
+			p {
+				color: var(--color-primary);
+			}
+		}
+
+		&:nth-child(2) {
+			outline: hsl(22, 100%, 75%) solid 0.8rem;
+			outline-offset: -2rem;
+
+			p {
+				color: var(--color-secondary);
+			}
+		}
+
+		&:nth-child(3) {
+			outline: hsl(198, 69%, 70%) solid 0.8rem;
+			outline-offset: -2rem;
+
+			p {
+				color: var(--color-tertiary);
+			}
+		}
+
+		&:nth-child(4) {
+			outline: hsl(128, 53%, 65%) solid 0.8rem;
+			outline-offset: -2rem;
+
+			p {
+				color: var(--color-quarternary);
+			}
+		}
+
+		span {
+			font-size: 4rem;
+			color: var(--color-Dark-800);
+		}
+
+		p {
+			font-size: 1.4rem;
+			margin: 0.2rem 0;
+			letter-spacing: 0.15rem;
+		}
+
+		&:hover {
+			box-shadow: var(--box-shadow-md);
+
+			&:nth-child(1) {
+				outline: var(--color-primary) solid 0.8rem;
+			}
+
+			&:nth-child(2) {
+				outline: var(--color-secondary) solid 0.8rem;
+			}
+
+			&:nth-child(3) {
+				outline: var(--color-tertiary) solid 0.8rem;
+			}
+
+			&:nth-child(4) {
+				outline: var(--color-quarternary) solid 0.8rem;
+			}
+		}
+	}
+}
+
+#sponsers {
+	padding: 8rem 0;
+	border-top: 0.2rem solid hsla(0, 0%, 86%, 0.239);
+
+	img {
+		opacity: 0.3;
+		filter: grayscale(1);
+		transition: opacity 0.3s ease-in-out, filter 0.3s ease-in-out;
+
+		&:hover {
+			opacity: 0.9;
+			filter: grayscale(0);
+		}
+	}
+
+	.swiper-slide {
+		max-width: 120px;
+		padding: 0 2rem;
+	}
+}
+
+/* // -------- MEDIA QUERIES ---------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+	.counters {
+		gap: 3rem;
+		flex-direction: column;
+	}
+}
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+	.counters {
+		gap: 3rem;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+}

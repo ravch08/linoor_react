@@ -1,10 +1,11 @@
+import Proptypes from "prop-types";
 import React from "react";
 import { Link } from "react-router-dom";
 
 const FeatureItem = (props) => {
 	return (
 		<div className="feature-item text-center">
-			<figure>{props.svg}</figure>
+			<figure>{props.svgFile}</figure>
 			<h3>{props.feature}</h3>
 			<p>{props.description}</p>
 			<Link to="#!" className="btn-arrow">
@@ -14,6 +15,12 @@ const FeatureItem = (props) => {
 			</Link>
 		</div>
 	);
+};
+
+FeatureItem.prototype = {
+	feature: Proptypes.string.isRequired,
+	svgFile: Proptypes.element.isRequired,
+	description: Proptypes.string.isRequired,
 };
 
 export default FeatureItem;

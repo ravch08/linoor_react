@@ -1,6 +1,17 @@
 import React from "react";
 
-import { Banner, Blog, Counter, Features, Newsletter, Pricing, Projects, Services, Sponsors, Testimonials } from "../layout/helper";
+import {
+	Banner,
+	Blog,
+	Counter,
+	Features,
+	Newsletter,
+	Pricing,
+	Projects,
+	Services,
+	Sponsors,
+	Testimonials,
+} from "../utils/helper";
 
 const Home = () => {
 	return (
