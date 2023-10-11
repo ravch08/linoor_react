@@ -35,10 +35,10 @@ header {
 
 		.search {
 			line-height: 0;
-		}
 
-		svg {
-			fill: var(--color-Dark-800);
+			svg {
+				fill: var(--color-Dark-800);
+			}
 		}
 
 		&::before {
@@ -339,10 +339,10 @@ header {
 		.nav-brand img {
 			width: 9.5rem;
 		}
-	}
 
-	.sticky {
-		padding: 2rem 0;
+		&.sticky {
+			padding: 2rem 0;
+		}
 	}
 
 	.container-fluid {

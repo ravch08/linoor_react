@@ -35,20 +35,20 @@
 	}
 
 	.blog-content {
+		border-top: none;
 		position: relative;
 		padding: 2.5rem 2rem;
-		border: 0.1rem solid var(--color-light-400);
-		border-top: none;
-		background-color: var(--color-light-100);
 		transition: border 0.5s ease-in-out;
+		background-color: var(--color-light-100);
+		border: 0.1rem solid var(--color-light-400);
 	}
 
 	.date {
-		top: -32%;
 		left: 6%;
-		padding: 1rem 2rem 2rem;
+		top: -32%;
 		position: absolute;
 		border-radius: 0.5rem;
+		padding: 1rem 2rem 2rem;
 		background-color: var(--color-light-100);
 	}
 

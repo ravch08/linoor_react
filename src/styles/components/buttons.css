@@ -16,6 +16,37 @@
 }
 
 .btn-arrow {
+	width: 5rem;
+	height: 5rem;
+	top: -12%;
+	right: 2%;
+	z-index: 9;
+	opacity: 0;
+	display: flex;
+	font-size: 2rem;
+	position: absolute;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-light-100);
+	box-shadow: var(--box-shadow-md);
+	transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out, background-color 0.5s ease-in-out;
+
+	svg {
+		fill: var(--color-Dark-800);
+		transition: fill 0.3s ease-in-out;
+	}
+
+	&:hover {
+		background-color: var(--color-primary);
+
+		svg {
+			fill: white;
+		}
+	}
+}
+
+/* .btn-arrow {
 	border: none;
 	cursor: pointer;
 	background-color: transparent;
@@ -23,7 +54,11 @@
 	svg {
 		fill: var(--color-Dark-800);
 	}
-}
+
+	&:hover {
+		background-color: var(--color-primary);
+	}
+} */
 
 .btn-close {
 	svg {

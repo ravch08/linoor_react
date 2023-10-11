@@ -40,11 +40,11 @@
 
 #newsletter {
 	padding: 10rem 0;
-	background-color: var(--color-secondary);
-	background-image: url(../assets/subscribe-two-bg-1-1.png);
-	background-repeat: no-repeat;
 	background-size: initial;
+	background-repeat: no-repeat;
 	background-position-x: right;
+	background-color: var(--color-secondary);
+	background-image: url(../../assets/subscribe-two-bg-1-1.png);
 }
 
 .newsletter-wrapper {

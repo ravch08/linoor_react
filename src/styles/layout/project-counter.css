@@ -1,13 +1,13 @@
 .counters {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
 
 	.counter {
 		width: 21rem;
 		height: 21rem;
-		border-radius: 50%;
 		display: flex;
+		border-radius: 50%;
 		align-items: center;
 		flex-direction: column;
 		justify-content: center;
@@ -99,8 +99,7 @@
 	}
 
 	.swiper-slide {
-		max-width: 120px;
-		padding: 0 2rem;
+		text-align: center;
 	}
 }
 

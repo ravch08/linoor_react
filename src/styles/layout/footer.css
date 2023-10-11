@@ -1,7 +1,7 @@
 footer {
 	padding: 8rem 0;
 	background-color: var(--color-footerBar);
-	background-image: url(../assets/footer-bg-1-1.png);
+	background-image: url(../../assets/footer-bg-1-1.png);
 	background-size: cover;
 	background-position: left;
 	background-repeat: no-repeat;
@@ -98,7 +98,7 @@ footer {
 	}
 
 	&:hover {
-		background-color: darken(var(--color-primary, 5%));
+		background-color: var(--color-hover);
 	}
 
 	&.scaleUp {
