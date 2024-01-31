@@ -1,16 +1,23 @@
 // import { DevTool } from "@hookform/devtools";
+import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm } from "react-hook-form";
+import { z } from "zod";
+
+const newsLetterSchema = z.object({
+	newsEmail: z.string().email({ message: "Invalid email address" }),
+});
+
+type NewsLetterProps = z.infer<typeof newsLetterSchema>;
 
 const Newsletter = () => {
 	const {
 		handleSubmit,
 		reset,
 		register,
-		control,
 		formState: { errors },
-	} = useForm();
+	} = useForm<NewsLetterProps>({ resolver: zodResolver(newsLetterSchema) });
 
-	const formSubmitHandler = (data) => {
+	const formSubmitHandler = (data: NewsLetterProps) => {
 		console.log("Form Submitted", data);
 		reset();
 	};
@@ -29,16 +36,7 @@ const Newsletter = () => {
 							type="email"
 							id="newsEmail"
 							placeholder="Enter your email..."
-							{...register("newsEmail", {
-								required: {
-									value: true,
-									message: "Email is Required!",
-								},
-								pattern: {
-									value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
-									message: "Invalid email format!",
-								},
-							})}
+							{...register("newsEmail")}
 						/>
 
 						<button type="submit" className="btn-submit">
@@ -48,7 +46,6 @@ const Newsletter = () => {
 						</button>
 						<p className="form-error"> {errors.newsEmail?.message}</p>
 					</form>
-					{/* <DevTool control={control} /> */}
 				</div>
 			</div>
 		</section>

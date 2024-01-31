@@ -1,6 +1,6 @@
-import { BlogProps } from "../../types/types";
+import { BlogsProps } from "../sections/Blog";
 
-const BlogItem = (props: BlogProps) => {
+const BlogItem = (props: BlogsProps) => {
 	return (
 		<div className="blog-item">
 			<figure>

@@ -4,10 +4,34 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-fade";
 
-import { bannerItems } from "../utils/data";
+import { useQuery } from "@tanstack/react-query";
+import { number, string, z } from "zod";
+
+import { getBannerItems } from "../../services/api";
 import { BannerItem } from "../utils/helper";
 
+export const bannerSchema = z.object({
+	id: number().optional(),
+	title1: string().min(5, { message: "Atleast 5 characters are required!" }),
+	title2: string().min(5, { message: "Atleast 5 characters are required!" }),
+	title3: string().min(5, { message: "Atleast 5 characters are required!" }),
+	imgSrc: string().url(),
+	imgSrcBG: string().url(),
+	imgSrc576: string().url(),
+	imgSrc768: string().url(),
+	description: string().min(5, { message: "Atleast 5 characters are required!" }),
+});
+
+export type BannerProps = z.infer<typeof bannerSchema>;
+
 const Banner = () => {
+	const { data, isLoading } = useQuery({
+		queryKey: ["bannerItems"],
+		queryFn: getBannerItems,
+	});
+
+	console.log(data);
+
 	return (
 		<section id="banner" aria-labelledby="Slider">
 			<div className="shapes">
@@ -33,7 +57,8 @@ const Banner = () => {
 					disableOnInteraction: true,
 				}}
 			>
-				{bannerItems.map((bannerItem) => (
+				{isLoading ? <h2>Loading...</h2> : null}
+				{data?.map((bannerItem: BannerProps) => (
 					<SwiperSlide key={bannerItem.id}>
 						<BannerItem
 							title1={bannerItem.title1}

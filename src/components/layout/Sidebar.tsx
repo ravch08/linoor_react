@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 
 import { LogoLight, SocialIcons } from "../utils/helper";
@@ -17,7 +17,7 @@ const Sidebar = () => {
 	};
 
 	return (
-		<React.Fragment>
+		<>
 			<div className="hamburger-menu" onClick={openSidebarHandler}>
 				<div className="line"></div>
 				<div className="line"></div>
@@ -196,7 +196,7 @@ const Sidebar = () => {
 					<SocialIcons />
 				</div>
 			</div>
-		</React.Fragment>
+		</>
 	);
 };
 

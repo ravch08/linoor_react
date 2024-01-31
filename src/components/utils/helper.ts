@@ -50,5 +50,7 @@ export { default as About } from "../pages/About";
 export { default as BlogPage } from "../pages/BlogPage";
 export { default as Contact } from "../pages/Contact";
 export { default as Home } from "../pages/Home";
+export { default as Layout } from "../pages/Layout";
+export { default as Page404 } from "../pages/Page404";
 export { default as Portfolio } from "../pages/Portfolio";
 export { default as ServicePage } from "../pages/ServicePage";

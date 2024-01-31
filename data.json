@@ -1,0 +1,229 @@
+{
+	"bannerItems": [
+		{
+			"id": 1,
+			"title1": "We Deliver",
+			"title2": "Quality",
+			"title3": "SEO Links.",
+			"imgSrc": "http://localhost:5173/src/assets/slider-1.png",
+			"imgSrcBG": "http://localhost:5173/src/assets/slider-bg.png",
+			"imgSrc576": "http://localhost:5173/src/assets/slider-576-bg.png",
+			"imgSrc768": "http://localhost:5173/src/assets/slider-bg-768.png",
+			"description": "We’re committed to providing customers exceptional service offering employees the best training. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ut numquam culpapariatur similique quaerat?"
+		},
+		{
+			"id": 2,
+			"title1": "We Deliver",
+			"title2": "Quality",
+			"title3": "SEO Links.",
+			"imgSrc": "http://localhost:5173/src/assets/slider-2.png",
+			"imgSrcBG": "http://localhost:5173/src/assets/slider-bg.png",
+			"imgSrc576": "http://localhost:5173/src/assets/slider-576-bg.png",
+			"imgSrc768": "http://localhost:5173/src/assets/slider-bg-768.png",
+			"description": "We’re committed to providing customers exceptional service offering employees the best training. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda ut numquam culpapariatur similique quaerat?"
+		}
+	],
+	"blogItems": [
+		{
+			"id": 1,
+			"comments": "2",
+			"imgSrc": "http://localhost:5173/src/assets/blog-post-1-370x316.jpg",
+			"date": "13 Jan, 21",
+			"name": "Ashikur Verma",
+			"title": "Leverage agile provide to a robust"
+		},
+		{
+			"id": 2,
+			"comments": "3",
+			"imgSrc": "http://localhost:5173/src/assets/blog-post-2-370x316.jpg",
+			"date": "01 Mar, 22",
+			"name": "Mark Noland",
+			"title": "Organically grow the holistic world view"
+		},
+		{
+			"id": 3,
+			"comments": "5",
+			"imgSrc": "http://localhost:5173/src/assets/blog-post-3-370x316.jpg",
+			"date": "18 Apr, 22",
+			"name": "Sakshi Sharma",
+			"title": "Override the Digital divide with additional"
+		},
+		{
+			"id": 4,
+			"comments": "2",
+			"imgSrc": "http://localhost:5173/src/assets/blog-post-1-370x316.jpg",
+			"date": "12 May, 22",
+			"name": "Arthur Wahlberg",
+			"title": "Digital divide with additional technologies"
+		},
+		{
+			"id": 5,
+			"comments": "7",
+			"imgSrc": "http://localhost:5173/src/assets/blog-post-2-370x316.jpg",
+			"date": "18 Jun, 22",
+			"name": "Mahesh Kohli",
+			"title": "The technological infrastructure"
+		},
+		{
+			"id": 6,
+			"comments": "2",
+			"imgSrc": "http://localhost:5173/src/assets/blog-post-3-370x316.jpg",
+			"date": "18 Jul, 22",
+			"name": "Venkatesh Kutti",
+			"title": "Override the Digital divide with additional"
+		}
+	],
+	"testimonialItems": [
+		{
+			"id": 1,
+			"name": "Shirley Smith",
+			"designation": "Director",
+			"imgSrc": "http://localhost:5173/src/assets/author-1.jpg",
+			"quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia earum optioquisquam quasi, sit iure tenetur aliquam libero maxime asperiores dolor quam rerum nostrum esse omnis!"
+		},
+		{
+			"id": 2,
+			"name": "Sarah Albert",
+			"designation": "PPC Specialist",
+			"imgSrc": "http://localhost:5173/src/assets/author-2.jpg",
+			"quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia earum optioquisquam quasi, sit iure tenetur aliquam libero maxime asperiores dolor quam rerum nostrum esse omnis!"
+		},
+		{
+			"id": 3,
+			"name": "Mike Hardson",
+			"designation": "Web Analyst",
+			"imgSrc": "http://localhost:5173/src/assets/author-3.jpg",
+			"quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia earum optioquisquam quasi, sit iure tenetur aliquam libero maxime asperiores dolor quam rerum nostrum esse omnis!"
+		},
+		{
+			"id": 4,
+			"name": "Kevin Martin",
+			"designation": "CEO",
+			"imgSrc": "http://localhost:5173/src/assets/author-4.jpg",
+			"quote": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia earum optioquisquam quasi, sit iure tenetur aliquam libero maxime asperiores dolor quam rerum nostrum esse omnis!"
+		}
+	],
+	"featureItems": [
+		{
+			"id": 1,
+			"feature": "Speed Optimization",
+			"imgSrc": "http://localhost:5173/src/assets/feat-speed.png",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, commodi."
+		},
+		{
+			"id": 2,
+			"feature": "Market Analysis",
+			"imgSrc": "http://localhost:5173/src/assets/feat-market.png",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, commodi."
+		},
+		{
+			"id": 3,
+			"feature": "SEO & Backlinks",
+			"imgSrc": "http://localhost:5173/src/assets/feat-backlinks.png",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, commodi."
+		},
+		{
+			"id": 4,
+			"feature": "Content Marketing",
+			"imgSrc": "http://localhost:5173/src/assets/feat-content.png",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias, commodi."
+		}
+	],
+	"projectItems": [
+		{
+			"id": 1,
+			"imgSrc": "http://localhost:5173/src/assets/project-2-1.jpg",
+			"type": "Digital Marketing",
+			"description": "Lorem ipsum dolor sit amet consectetur."
+		},
+		{
+			"id": 2,
+			"imgSrc": "http://localhost:5173/src/assets/project-2-2.jpg",
+			"type": "Website Development",
+			"description": "Lorem ipsum dolor sit amet consectetur."
+		},
+		{
+			"id": 3,
+			"imgSrc": "http://localhost:5173/src/assets/project-2-3.jpg",
+			"type": "Apps Development",
+			"description": "Lorem ipsum dolor sit amet consectetur."
+		},
+		{
+			"id": 4,
+			"imgSrc": "http://localhost:5173/src/assets/project-2-4.jpg",
+			"type": "Content Writing",
+			"description": "Lorem ipsum dolor sit amet consectetur."
+		}
+	],
+	"footerItems": [
+		{
+			"id": 1,
+			"link": "#!",
+			"title": "Explore",
+			"text": [
+				{
+					"id": 1,
+					"content": "About Us"
+				},
+				{
+					"id": 2,
+					"content": "Meet Our Team"
+				},
+				{
+					"id": 3,
+					"content": "Our Portfolio"
+				},
+				{
+					"id": 4,
+					"content": "Contact Us"
+				}
+			]
+		},
+		{
+			"id": 2,
+			"link": "#!",
+			"title": "Services",
+			"text": [
+				{
+					"id": 1,
+					"content": "Modern Desinging"
+				},
+				{
+					"id": 2,
+					"content": "Marketing Strategy"
+				},
+				{
+					"id": 3,
+					"content": "UI/UX Designing"
+				},
+				{
+					"id": 4,
+					"content": "App Development"
+				}
+			]
+		},
+		{
+			"id": 3,
+			"link": "#!",
+			"title": "Useful Links",
+			"text": [
+				{
+					"id": 1,
+					"content": "Support"
+				},
+				{
+					"id": 2,
+					"content": "Privacy Policy"
+				},
+				{
+					"id": 3,
+					"content": "Terms of Use"
+				},
+				{
+					"id": 4,
+					"content": "Help"
+				}
+			]
+		}
+	]
+}

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ProjectProps } from "../../types/types";
+import { ProjectProps } from "../sections/Projects";
 
 const ProjectItem = (props: ProjectProps) => {
 	return (

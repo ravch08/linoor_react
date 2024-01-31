@@ -1,4 +1,4 @@
-import { BannerProps } from "../../types/types";
+import { BannerProps } from "../sections/Banner";
 
 const BannerItem = (props: BannerProps) => {
 	return (
@@ -14,8 +14,8 @@ const BannerItem = (props: BannerProps) => {
 			<picture>
 				<source media="(min-width: 768px) and (max-width: 1024px)" srcSet={props.imgSrc768} />
 				<source media="(max-width: 767px)" srcSet={props.imgSrc576} />
-				<img loading="lazy" src={props.imgSrcBG} className="slider-bg" alt="slider-bg" />
-				<img loading="lazy" src={props.imgSrc} className="slider-img" alt="slider-image" />
+				<img src={props.imgSrcBG} className="slider-bg" alt="slider-bg" />
+				<img src={props.imgSrc} className="slider-img" alt="slider-image" />
 			</picture>
 		</div>
 	);

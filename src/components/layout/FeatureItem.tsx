@@ -1,10 +1,12 @@
 import { Link } from "react-router-dom";
-import { FeatureProps } from "../../types/types";
+import { FeatureProps } from "../sections/Features";
 
 const FeatureItem = (props: FeatureProps) => {
 	return (
 		<div className="feature-item text-center">
-			<figure>{props.svgFile}</figure>
+			<figure>
+				<img src={props.imgSrc} alt={props.feature} />
+			</figure>
 			<h3>{props.feature}</h3>
 			<p>{props.description}</p>
 			<Link to="#!" className="btn-arrow">

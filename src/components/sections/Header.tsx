@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { LogoDark, Sidebar } from "../utils/helper";
 
 const Header = () => {
@@ -30,19 +30,19 @@ const Header = () => {
 						<nav aria-labelledby="Primary Navigation">
 							<ul className="nav-list">
 								<li className="nav-item">
-									<Link to="/" className="nav-link">
+									<NavLink to="/" className="nav-link">
 										Home
-									</Link>
+									</NavLink>
 								</li>
 								<li className="nav-item">
-									<Link to="/about" className="nav-link">
+									<NavLink to="/about" className="nav-link">
 										About Us
-									</Link>
+									</NavLink>
 								</li>
 								<li className="nav-item">
-									<Link to="/servicepage" className="nav-link">
+									<NavLink to="/services" className="nav-link">
 										Services
-									</Link>
+									</NavLink>
 									<ul className="dropdown-menu">
 										<li className="dropdown-item">
 											<Link to="#!" className="dropdown-link">
@@ -77,9 +77,9 @@ const Header = () => {
 									</ul>
 								</li>
 								<li className="nav-item">
-									<Link to="/portfolio" className="nav-link">
+									<NavLink to="/portfolio" className="nav-link">
 										Portfolio
-									</Link>
+									</NavLink>
 									<ul className="dropdown-menu">
 										<li className="dropdown-item">
 											<Link to="#!" className="dropdown-link">
@@ -104,9 +104,9 @@ const Header = () => {
 									</ul>
 								</li>
 								<li className="nav-item">
-									<Link to="/blogpage" className="nav-link">
+									<NavLink to="/blogs" className="nav-link">
 										Blog
-									</Link>
+									</NavLink>
 									<ul className="dropdown-menu">
 										<li className="dropdown-item">
 											<Link to="#!" className="dropdown-link">
@@ -131,9 +131,9 @@ const Header = () => {
 									</ul>
 								</li>
 								<li className="nav-item">
-									<Link to="/contact" className="nav-link">
+									<NavLink to="/contact" className="nav-link">
 										Contact
-									</Link>
+									</NavLink>
 								</li>
 							</ul>
 						</nav>
